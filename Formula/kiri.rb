@@ -3,7 +3,7 @@ class Kiri < Formula
   homepage "https://github.com/LeeCheneler/kiri"
   version "0.4.0"
   url "https://github.com/LeeCheneler/kiri/releases/download/v0.4.0/kiri"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "07380ea40e138e93b43468450d36f76efd21cc69267e14d5eb6ce19b54523d3b"
 
   depends_on :macos
   depends_on arch: :arm64
