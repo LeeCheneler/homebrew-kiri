@@ -1,9 +1,9 @@
 class Kiri < Formula
   desc "Local-first, git-based workflow orchestrator for personal automation"
   homepage "https://github.com/LeeCheneler/kiri"
-  version "0.65.0"
-  url "https://github.com/LeeCheneler/kiri/releases/download/v0.65.0/kiri"
-  sha256 "e51110db629725d15b6e2d6e8a075aa259f1b50420d9a4b90dd9c934fa7d7b48"
+  version "0.66.0"
+  url "https://github.com/LeeCheneler/kiri/releases/download/v0.66.0/kiri"
+  sha256 "b69294cc6304d2b7074488d6e037aae2fc15feb26aa1e5aa622db8401bc950cd"
 
   depends_on :macos
   depends_on arch: :arm64
