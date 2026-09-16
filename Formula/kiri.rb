@@ -9,6 +9,9 @@ class Kiri < Formula
   depends_on arch: :arm64
 
   def install
+    # Release binaries before v0.113.0 carry an invalid ad-hoc signature
+    # that macOS 27 refuses to exec. Re-signing is harmless on good ones.
+    system "codesign", "--force", "--sign", "-", "kiri"
     bin.install "kiri"
   end
 
